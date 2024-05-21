@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    color: #fff;
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /* background-image: url(./img/background.png);
+    background-position-x: -90rem;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    height: 380rem;     */
+} 
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.billhead{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 120px;
+    border-bottom: 5px solid #d4791d;
+    align-items: center;    
+    background-color: #fff;
+}
+
+.nav-list{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;    
+}
+
+.nav-list p{
+    color: orange;
+}
+
+.nav-list a:hover{
+    border-bottom: 5px solid #184c3e;
+}
+
+.logo img{
+    height: 80px;
+    margin-top: 1rem;
+}
+
+.body{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+}
+
+.body h2{
+    font-size: 3rem;    
+}
+
+.first-section{    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80rem;
+    background-color: #184c3e;
+    display: flex; 
+    border-bottom: 5px solid #d4791d;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes h2{
+    font-size: 2.5rem;
+    margin-right: 3rem;
+    color: #d4791d;
+}
+
+.informacoes p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+.informacoes img{
+    border-radius: 10px;
+}
+
+.section2{
+    background-image: url(./img/logoback.png);
+    width: 100%;
+    background-position: center center;
+    height: 70rem;
+    border-bottom: 5px solid #184c3e;
+}
+
+.marcas{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+} 
+
+.marcas h2{
+    color: #184c3e;
+    text-align: center;
+}
+
+.carrossel{
+    margin-top: 7rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    padding: 2rem;
+}
+
+.carousel-container{
+    display: flex;
+}
+
+.carousel-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.carousel-wrapper img{
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    color: #184c3e;
+}
+
+.icons img{
+    height: 100px;
+    text-align: center;
+}
+
+.entrega{
+    width: 200px;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos{
+    width: 200px;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.1rem;   
+}
+.produtos h3{
+    margin-top: 1.1rem;
+}
+
+.crescimento{
+    width: 200px;
+    margin-right: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.crescimento h3{
+    margin-top: 1.5rem;
+}
+
+.ecommerce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;    
+    background-color:#d4791d;
+    height: 20rem;
+    border-bottom: 5px solid #184c3e;
+}
+
+.ecommerce h2{
+    font-size: 3rem;
+    margin-left: 3rem;
+    color:#184c3e;
+    justify-content: center;
+}
+
+.ecommerce p{
+    font-size: 1.6rem;    
+    margin-left: 3rem;
+    color:#fff;
+    max-width: 70rem;
+    margin-bottom: 1rem;
+}
+
+.fb-page{
+    margin-top: 2rem;
+}
+
+.local{
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;    
+    background-image: url(./img/background.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85rem;
+}
+
+.local h1{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+
+.bh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20.3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.df iframe{
+    margin-left: 0.8rem;
+}
+
+.enderecodf li a{
+    color: #fff;
+}
+
+.enderecobh li a{
+    color: #fff;
+}
+
+.Contato{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;  
+    background-image: url(./img/logoback2.png);
+    width: 100%;
+    background-position: center center;
+    height: 70rem;
+    background-color: #184c3e;
+    border-top: 4px solid #d4791d;
+    border-bottom: 4px solid #d4791d;
+}
+
+.Contato h2{
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    color: #FEB941;
+}
+
+.fale-conosco{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 10rem;
+}
+
+
+.fale-conosco p{
+    color: #184c3e;
+    max-width: 500px;
+    font-size: 1.5rem;
+}
+
+.fale-conosco form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.fale-conosco button{
+    margin-left: 19rem;
+}
+
+input{
+    border-radius: 22px;
+}
+
+textarea{
+    border-radius: 22px;
+    height: 370px;
+}
+
+button{
+    margin-top: 3rem;
+    width: 100px;
+    border: 2px solid #184c3e;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.whats{
+    background-image: url(./img/backwhats.png);
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color:#d4791d;   
+    border-bottom: 5px solid #184c3e; 
+}   
+
+.info{
+    background-color: #C7C8CC;
+    align-items: center;
+    justify-content: space-around;
+    height: 30rem;
+    width: 95rem;  
+    border: 3px solid #184c3e;
+    border-radius: 5px;
+}
+
+.info button{
+    margin-top: 3rem;
+    width: 15rem;
+    border: 2px solid #25D366;
+    border-radius: 22px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.info h2{
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+
+.info h3{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #184c3e;    
+}
+
+.info h4{
+    font-size: 1.5rem;
+    color: #184c3e; 
+}
+
+.baseboard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d4791d;
+    color: #fff;
+    height: 100px;
+}
+
+.baseboard .redes-sociais{
+    display: flex;    
+    margin-right: 67.5rem;
+    gap: 15px;
+}
+
+.baseboard .redes-sociais li a{
+    padding: 5px;
+    color: #fff  ;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;    
+}
+
+.baseboard .redes-sociais li a:hover{
+    padding: 5px;
+    color: #184c3e  ;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;    
+}
+
+
+/* Sobre */
+
+.first-sectionsobre{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #184c3e;
+    background-image: url(./img/logoback2.png);
+}
+
+.first-sectionsobre h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: #d4791d;
+}
+
+.first-sectionsobre h2{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.first-sectionsobre h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #FEB941;
+}
+    
+.informacoessobre{    
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoessobre h2{
+    font-size: 2.5rem;
+    color: #d4791d;
+    margin-bottom: 5rem;
+}
+
+.informacoessobre p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    max-width: 75vw;
+}
+
+.informacoessobre img{
+    border-radius: 10px;
+}
+
+.img1sobre {    
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.img1sobre img{
+    max-height: 81.6rem;
+    margin-left: 1rem;
+    justify-content: center;    
+}
+
